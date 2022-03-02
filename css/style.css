@@ -53,16 +53,29 @@ h2 {
   text-align: center;
 }
 .piePagina {
-  font-family: "Anton", sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-size: small;
-  color: rgba(255, 255, 255, 0.733);
+  color: rgba(255, 255, 255, 0.8);
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(49, 49, 49, 0.5);
   margin-top: 1rem;
+  margin-left: 2%;
+  margin-right: 2%;
 }
 .pie {
   margin: 1px 0 0 0;
 }
+.carousel-inner img {
+  width: 300px;
+  max-height: 300px;
+}
+.carousel-inner{
+height: 300px;
+}
+#carouselExampleSlidesOnly{
+  height: 300px;
+}
+/*
 .imageContainer {
   text-align: center;
 }
@@ -73,6 +86,7 @@ h2 {
   transform: scale(1.2,1.2);
   transition: all 200ms
 }
+*/
 .presupuesto {
   text-align: center;
   font-family: "IBM Plex Sans Thai Looped", sans-serif;
