@@ -1,0 +1,194 @@
+* {
+  box-sizing: border-box;
+}
+/* Estilados generales */
+.encabezado {
+  font-size: 2rem;
+}
+.Texto {
+  font-size: 1rem;
+}
+body {
+  background-image: url(../img/banckground_fabriquita.png) ;
+  background-attachment: scroll;
+  background-size: 100%;
+}
+#logo {
+  width: 100%;
+}
+#fondoLogo {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.navegador {
+  font-family: "IBM Plex Sans Thai Looped", sans-serif;
+  font-size: 30px;
+  display: inline-block;
+  padding-left: 5%;
+}
+.navegador a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.8);
+}
+nav {
+  width: 100%;
+}
+.cajaNavegador {
+  padding: 0;
+  background-color: rgba(194, 194, 194, 0.8);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.cajaNavegador li {
+  padding: 0;
+}
+h2 {
+  font-family: "IBM Plex Sans Thai Looped", sans-serif;
+  font-size: 60px;
+  text-align: center;
+}
+.piePagina {
+  font-family: "Anton", sans-serif;
+  font-size: small;
+  color: rgba(255, 255, 255, 0.733);
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-top: 1rem;
+}
+.pie {
+  margin: 1px 0 0 0;
+}
+.imageContainer {
+  text-align: center;
+}
+.imageContainer img {
+  width: 30%;
+}
+.presupuesto {
+  text-align: center;
+  font-family: "IBM Plex Sans Thai Looped", sans-serif;
+}
+.presupuesto p {
+  width: 40%;
+  margin: 0 auto;
+}
+.presentacion {
+  font-family: "IBM Plex Sans Thai Looped", sans-serif;
+  font-size: 20px;
+  display: inline-block;
+  text-align: center;
+  padding: 0 15%;
+}
+h3 {
+  font-family: "IBM Plex Sans Thai Looped", sans-serif;
+  font-size: 30px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.grillaIndex {
+  display: flex;
+  justify-content: space-between;
+}
+.quienesSomos {
+  width: 48%;
+}
+.nuestrosTrabajos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+  width: 48%;
+}
+.imageClientes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  align-items: center;
+  margin-top: 1rem;
+
+}
+.imageClientes img {
+  width: 100%;
+    padding: 5px;
+}
+.tituloNuestrosTrabajos {
+  margin: 0;
+  height: auto;
+  width: 100%;
+}
+
+@media (max-width: 1100px) {
+  /* Nav */
+  .navegador a {
+    font-size: 1.2rem;
+  }
+  /* Contenedor */
+  .grillaIndex {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+
+  /* Quienes somos */
+  .quienesSomos {
+    width: 90%;
+  }
+
+  /* Nuestros trabajos */
+  .nuestrosTrabajos {
+    width: 90%;
+  }
+}
+
+@media (max-width: 600px) {
+  /* Nav */
+.navegador{
+  height: 50px;
+
+}
+  .cajaNavegador {
+    flex-direction: column;
+}
+.navegador a{
+  font-size: 20px;
+  
+}
+h2{
+  margin: 0;
+}
+.presentacion{
+  padding: 0;
+}
+
+ /* responsive imageClientes */ 
+ .imageClientes {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  align-items: center;
+  height: auto;
+  margin-top: 1rem;
+}
+.encabezado{
+  font-size: 2rem;  
+}
+.imageContainer img{
+  width: 90%;
+  margin: 0 auto;
+}
+.titulos{
+  font-size: 2rem;  
+}
+.grillaIndex{
+  width: 80%;
+  margin: 0 auto;
+}
+.presupuesto p{
+  width: 100%;
+}
+
+textarea{
+  width: 100%;
+}
