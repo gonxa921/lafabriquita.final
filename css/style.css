@@ -65,6 +65,10 @@ h2 {
 .pie {
   margin: 1px 0 0 0;
 }
+.carouselContainer{
+  max-width: 400px;
+}
+/*
 .carousel-inner img {
   width: 300px;
   max-height: 300px;
@@ -75,7 +79,7 @@ height: 300px;
 #carouselExampleSlidesOnly{
   height: 300px;
 }
-/*
+
 .imageContainer {
   text-align: center;
 }
