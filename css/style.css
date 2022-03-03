@@ -52,6 +52,7 @@ h2 {
   font-size: 60px;
   text-align: center;
 }
+
 .piePagina {
   font-family: 'Josefin Sans', sans-serif;
   font-size: small;
@@ -112,19 +113,13 @@ h3 {
   text-align: center;
   background-color: rgba(0, 0, 0, 0.3);
 }
+/*
 .grillaIndex {
   display: flex;
   justify-content: space-between;
 }
+
 .quienesSomos {
-  width: 48%;
-}
-.nuestrosTrabajos {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-  height: 100%;
   width: 48%;
 }
 .imageClientes {
@@ -137,10 +132,18 @@ h3 {
 }
 .imageClientes img {
   width: 100%;
-    padding: 5px;
+  padding: 5px;
 }
+.nuestrosTrabajos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+  width: 48%;
+}
+*/
 .tituloNuestrosTrabajos {
-  margin: 0;
   height: auto;
   width: 100%;
 }
@@ -188,7 +191,8 @@ h2{
   padding: 0;
 }
 
- /* responsive imageClientes */ 
+
+ /* responsive imageClientes */
  .imageClientes {
   display: grid;
   grid-template-columns: 1fr;
@@ -217,5 +221,5 @@ h2{
 
 textarea{
   width: 100%;
-} 
+}
 }
