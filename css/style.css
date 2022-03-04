@@ -52,7 +52,10 @@ h2 {
   font-size: 60px;
   text-align: center;
 }
-
+.form-control{
+  width: 80%;
+  margin: 0 10%;
+}
 .piePagina {
   font-family: 'Josefin Sans', sans-serif;
   font-size: small;
