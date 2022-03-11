@@ -52,17 +52,38 @@ h2 {
   font-size: 60px;
   text-align: center;
 }
+.form-control{
+  width: 80%;
+  margin: 0 10%;
+}
 .piePagina {
-  font-family: "Anton", sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-size: small;
-  color: rgba(255, 255, 255, 0.733);
+  color: rgba(255, 255, 255, 0.8);
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(49, 49, 49, 0.5);
   margin-top: 1rem;
+  margin-left: 2%;
+  margin-right: 2%;
 }
 .pie {
   margin: 1px 0 0 0;
 }
+.carouselContainer{
+  max-width: 400px;
+}
+/*
+.carousel-inner img {
+  width: 300px;
+  max-height: 300px;
+}
+.carousel-inner{
+height: 300px;
+}
+#carouselExampleSlidesOnly{
+  height: 300px;
+}
+
 .imageContainer {
   text-align: center;
 }
@@ -73,6 +94,7 @@ h2 {
   transform: scale(1.2,1.2);
   transition: all 200ms
 }
+*/
 .presupuesto {
   text-align: center;
   font-family: "IBM Plex Sans Thai Looped", sans-serif;
@@ -94,19 +116,13 @@ h3 {
   text-align: center;
   background-color: rgba(0, 0, 0, 0.3);
 }
+/*
 .grillaIndex {
   display: flex;
   justify-content: space-between;
 }
+
 .quienesSomos {
-  width: 48%;
-}
-.nuestrosTrabajos {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-  height: 100%;
   width: 48%;
 }
 .imageClientes {
@@ -119,10 +135,18 @@ h3 {
 }
 .imageClientes img {
   width: 100%;
-    padding: 5px;
+  padding: 5px;
 }
+.nuestrosTrabajos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+  width: 48%;
+}
+*/
 .tituloNuestrosTrabajos {
-  margin: 0;
   height: auto;
   width: 100%;
 }
@@ -170,7 +194,8 @@ h2{
   padding: 0;
 }
 
- /* responsive imageClientes */ 
+
+ /* responsive imageClientes */
  .imageClientes {
   display: grid;
   grid-template-columns: 1fr;
@@ -199,5 +224,5 @@ h2{
 
 textarea{
   width: 100%;
-} 
+}
 }
